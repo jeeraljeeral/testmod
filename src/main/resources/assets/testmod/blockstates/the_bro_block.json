@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "testmod:block/the_bro_block"
+    }
+  }
+}
