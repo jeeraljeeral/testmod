@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "utility",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:diamond"
+  ],
+  "result": {
+    "count": 1,
+    "id": "testmod:schizo_bucks"
+  }
+}

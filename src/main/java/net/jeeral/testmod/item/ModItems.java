@@ -2,6 +2,7 @@ package net.jeeral.testmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.jeeral.testmod.TestMod;
+import net.jeeral.testmod.item.custom.RecallBell;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -12,7 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item SCHIZO_BUCKS = registerItem("schizo_bucks", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TestMod.MOD_ID, "schizo_bucks")))));
-    public static final Item RECALL_BELL = registerItem("recall_bell", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TestMod.MOD_ID, "recall_bell")))));
+    public static final Item RECALL_BELL = registerItem("recall_bell", new RecallBell(new Item.Settings().useCooldown(1).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TestMod.MOD_ID, "recall_bell")))));
 
     private static Item registerItem(String name, Item item) {
        return Registry.register(Registries.ITEM, Identifier.of(TestMod.MOD_ID, name), item);

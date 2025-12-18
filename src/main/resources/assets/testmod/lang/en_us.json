@@ -2,5 +2,7 @@
   "item.testmod.schizo_bucks": "Schizo Bucks",
   "item.testmod.recall_bell": "Recall Bell",
 
-  "block.testmod.the_bro_block": "The Bro Block"
+  "block.testmod.the_bro_block": "The Bro Block",
+
+  "itemgroup.testmod.stupid_mod_group": "Stupid Mod"
 }

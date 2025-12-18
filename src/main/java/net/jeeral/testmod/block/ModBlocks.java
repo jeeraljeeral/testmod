@@ -18,7 +18,7 @@ public class ModBlocks {
 
     public static final Block THE_BRO_BLOCK = registerBlock("the_bro_block",
             new Block(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TestMod.MOD_ID, "the_bro_block")))
-                    .strength(4f).requiresTool().sounds(BlockSoundGroup.HONEY)));
+                    .strength(1f).requiresTool().sounds(BlockSoundGroup.HONEY)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

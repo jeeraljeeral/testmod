@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:skeleton_skull",
+    "N": "minecraft:nether_star",
+    "B": "minecraft:bone"
+  },
+  "pattern": [
+    " N ",
+    "B#B",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "testmod:the_bro_block"
+  }
+}
